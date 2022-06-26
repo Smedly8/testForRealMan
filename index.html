@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>тест на пидора</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css"></link>
+	
+</head>
+<body>
+		<button class="button" id="button"> начать тест </button>
+		<div class="wrap" id='wrap'>
+			<div class="bigWrap">
+				<div id='wrapTrollBut' class="wrapTrollBut">
+					<button id='trollBut' class="buttonAlert trollBut">нет</button> <!-- вот оно самое важное -->
+					<button id='trollBut2' class="buttonAlert trollBut trollBut2">
+						да
+						<div class="coverButton" onclick="event.stopPropagation()" id="coverButton"></div>
+					</button>
+				</div>
+
+				<div id='alert' class='alert'>
+
+					<p6 id='que'> ты пидор? </h1>
+					<br>
+						<div class="wrap2">	
+
+							<button class="buttonAlert" id='butYes'>
+								да
+							</button>	
+							<button class="buttonAlert" id='butNo'>
+								нет
+							</button>
+						</div>
+				
+				</div>
+			</div>
+		</div>
+	
+	
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

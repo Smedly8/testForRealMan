@@ -1,0 +1,130 @@
+.button {
+	margin-left: auto;
+	margin-top: 20%;
+	padding: 20px;
+	font-size: 22px;
+	border-radius: 20px;
+	outline: none;
+	box-shadow: none ;
+	transition: .2s;
+
+}
+
+.button:hover {
+	background-color: #afbcf0;
+
+}
+
+.buttonAlert{
+	border: 2px solid black;
+	display: inline-block;
+	margin-top: 10%;
+	padding: 7px;
+	font-size: 15px;
+
+	height: 40px;
+	background: #eee;
+
+}
+
+
+
+body {
+	text-align: center;
+	position: relative;
+}
+
+
+
+.wrap {
+
+	opacity: 0;
+	pointer-events: none;
+	display: grid;
+	left: 0;
+	top: 0;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	justify-content: center;
+}
+
+.wrap2 {
+	position: relative;
+	display: flex;
+	height: 70px;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.trollBut {
+	border: 2px solid black;
+	pointer-events: all;
+	opacity: 0;
+	position: absolute;
+	height: 38px;
+	width: 44px;
+	left: 0px;
+	top: 0px;
+	z-index: 145;
+	margin: 5px;
+}
+
+.trollBut2 {
+	pointer-events: none;
+	left: -100px;
+	top: 200px;
+}
+
+.wrapTrollBut{
+	pointer-events: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	opacity: 1;
+	z-index: 1;
+
+}
+
+.bigWrap {
+	position: relative;
+	background-color: white;
+	margin-top: 200px;
+	margin: 50px;
+	padding: 50px;
+	width: 400px;
+	height: 120px;
+	font-size: 30px;
+	border: 2px solid red;
+}
+
+.alert {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	padding: 50px;
+	border: 2px solid black;
+	width: 400px;
+	height: 120px;
+	font-size: 30px;
+
+}
+
+.p{
+	position: absolute;
+	left: 10px;
+}
+
+.coverButton {
+	pointer-events: all;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1000;
+}
